@@ -136,6 +136,7 @@ STATICFILES_DIRS = [BASE_DIR / 'moviereviews/static/',]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
+LOGIN_URL = 'loginaccount'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
